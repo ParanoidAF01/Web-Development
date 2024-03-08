@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+caption{
+    color: white;
+}
+td{
+    border: 2px solid white;
+    color: white;
+    /* background-color: black; */
+}
+th{
+    border: 2px solid white;
+    color: white;
+    /* background-color: black; */
+} 

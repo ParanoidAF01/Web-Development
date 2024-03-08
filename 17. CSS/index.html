@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        /* div { */
+            /* background-color: yellow; */
+        /* } */
+            
+        /* Class Selector */
+        .yellow{
+        background-color: yellow;
+    }
+
+        /* Id Selector */
+    #cyan{
+        background-color: cyan;
+    }
+
+        /* Class Selector */
+    div > p {
+        background-color: black;
+        color: white;
+    }    
+    
+    /* Decendent Selector */
+    div p{
+        background-color: black;
+        color: white;
+    }
+
+    /* Universal Selector */
+    *{
+        margin: 0;
+    }
+    
+    /* Pseudo Selectors */
+
+    a:visited{
+        color: red;
+    }
+
+    a:link{
+            color: green;
+    }
+
+    a:active{
+        background-color: cyan;
+    }
+
+    a:hover{
+        background-color: lightgreen;
+    }
+
+
+    p:first-child{
+            background-color: violet;
+    }
+
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>Hello</p>
+        <p>I am a Cat Lover</p>
+    <div class="yellow">
+        I am Anmol
+        <p>1st Child</p>
+        <p>This is Child para inside div</p>
+    </div>
+    <div id="cyan">
+        I am persuing BTech 
+    </div>
+<div>
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <a href="https://www.youtube.com" target="_blank">Youtube</a>
+</div>
+
+</body>
+
+</html>

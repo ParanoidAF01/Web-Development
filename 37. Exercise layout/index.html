@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .nav {
+            background-color: aqua;
+            position: sticky;
+            top: 0px;
+        }
+
+        ul {
+            display: flex;
+            font-size: 20px;
+        }
+
+        li {
+            list-style: none;
+            padding: 10px;
+        }
+
+        
+        .box1{
+            border: 2px solid black;
+            width: 1345px;
+            height: 700px;
+            margin-top: 25px;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+        }
+        .box2 {
+            border: 2px solid black;
+            width: 500px;
+            height: 500px;
+            margin-top: 50px;
+        }
+
+        .box3 {
+            border: 2px solid black;
+            width: 500px;
+            height: 500px;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        .picture{
+            position: fixed;
+            right: 0px;
+            bottom: 0px;
+  
+        }
+        .box4{
+            background-color: rgb(105, 188, 255);
+            font-size: larger;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="picture"><img src="narutodp.png" alt="naruto" height="100px"></div>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>Orders</li>
+            <li>About us</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="box1">
+        <div class="box2"> I am a box</div>
+        <div class="box3">I am another box</div>
+    </div>
+    <div class="box4">Welcome to this Sigma Web Development Express</div>
+</body>
+</html>

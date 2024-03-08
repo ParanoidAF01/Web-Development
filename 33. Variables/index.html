@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables</title>
+    <style>
+        :root{
+            --color: rgb(0, 153, 255);
+            --seccolor: green;
+
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+            border: 2px solid black;
+            background-color: var(--color);
+        }
+        ul{
+            display: flex;
+        }
+        li{
+            list-style-type: none;
+            padding: 5px;
+        }
+        .li1{
+            background-color: var(--seccolor);
+        }
+        .li2{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li class="li2">About Us</li>
+            <li class="li1">Contact</li>
+        </ul>
+    </div>
+</body>
+</html>
